@@ -6,7 +6,7 @@ changerEl.addEventListener('click', onChange);
 
 function onChange() {
   bodyEl.style.backgroundColor = getRandomHexColor();
-  spanEl.textContent = getRandomHexColor().valueOf();
+  spanEl.textContent = getRandomHexColor();
 }
 
 function getRandomHexColor() {
